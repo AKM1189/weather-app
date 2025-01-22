@@ -7,4 +7,12 @@ http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country
 current weather
 https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
 
-bg-color: f0f5ff;
+bg-color: #f0f5ff;
+child: #ffffff;
+text-color: #5f8ff6;
+
+dark
+bg - #323061
+text - #fbfef9
+child - #3f3c71
+text - #6a9cfd

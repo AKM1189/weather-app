@@ -6,7 +6,14 @@ const StoreContext = createContext({});
 
 const StoreProvider: React.FC = () => {
   const [store, setStore] = useState<storeTypes["store"]>({
+    currentCity: null,
+    weather: null,
     theme: "light",
+    isNavOpen: true,
+    activeNav: "",
+    currentList: "today",
+    todayWeather: null,
+    weekWeather: null,
   });
 
   const setStoreFunc: storeTypes["setStoreFunc"] = (key, value) => {
